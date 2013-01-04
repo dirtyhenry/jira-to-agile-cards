@@ -1,0 +1,17 @@
+body {
+    color: #444;
+}
+
+h2 {
+    color: #FFA500;
+}
+
+.card {
+    float: left;
+    width: 280px;
+    border: thin dotted #999;
+    height: 173px;
+    padding: 20px;
+    margin: 10px;
+    page-break-after: always;
+}
