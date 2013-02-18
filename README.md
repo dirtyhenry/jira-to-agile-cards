@@ -10,7 +10,9 @@ This project aims to be able to print Agile Cards when running the OnDemand vers
 3. Select `Views` \> `Excel (Current Fields)` and save the file in the same directory where you cloned this project
 4. Rename the file with a `.html` extension
 5. Open the file in your favorite text editor
-6. Add the following lines at the end of the file:
+6. Add the following lines at the end of the file.
+
+Code to copy:
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="jira.js"></script>
