@@ -1,8 +1,13 @@
 body {
     color: #444;
+    background-color: #fff;
 }
 
 h2 {
+    color: #999;
+}
+
+a {
     color: #999;
 }
 
