@@ -11,7 +11,7 @@ Compile the JS script with Google's [Closure Compiler][3]:
     
 Then embed the compiled code in a script like this:
 
-    <a href='javascript:(function(){replace_with_compiled_script})();'>My bookrmarklet</a>
+    <a href='javascript:(function(){replace_with_compiled_script})();'>My bookmarklet</a>
 
 ## Bookmarklets
 
