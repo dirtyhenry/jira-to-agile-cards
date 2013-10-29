@@ -2,7 +2,7 @@
 newLink = document.createElement("link");
 newLink.setAttribute("type", "text/css");
 newLink.setAttribute("rel", "stylesheet");
-newLink.setAttribute("href", "https://dl.dropbox.com/u/22264396/jira.css")
+newLink.setAttribute("href", "https://s3.amazonaws.com/mfhosting/jira.css")
 head = document.getElementsByTagName("head")[0];
 head.appendChild(newLink);
 

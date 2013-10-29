@@ -17,7 +17,7 @@ for (i = 0; i < issues.length; i++) {
 
     if (storyPoints != -1 && status != -1) {
         console.log("Adding " + storyPoints);
-        if (status.indexOf("Resolved") > -1 || status.indexOf("Closed") > -1) {
+        if (!isNaN(storyPoints) && (status.indexOf("Resolved") > -1 || status.indexOf("Closed") > -1)) {
             doneStoryPoints += storyPoints;
         } else {
             console.log("Status: " + status);
