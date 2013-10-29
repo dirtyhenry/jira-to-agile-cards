@@ -7,7 +7,7 @@ A fast solution to print Agile Cards with the OnDemand version of Atlassian's JI
 
 Compile the JS script with Google's [Closure Compiler][3]:
 
-    ./compile-js.sh
+    ./compile.sh
     
 Then embed the compiled code in a script like this:
 
@@ -33,6 +33,7 @@ of the issues of a filter.
 
 Example:
 
+![Screenshot of a generated alert][5]
 
 
 ## About
@@ -44,3 +45,4 @@ To find out more about this project, please read [this post][2].
 [2]: http://bootstragram.com/making-scrum-cards-from-jira-with-jquery-and-css/ "Making scrum cards from Jira with jQuery and CSS on Bootstragram.com"
 [3]: https://developers.google.com/closure/compiler/ "Google Closure Compiler"
 [4]: http://dirtyhenry.github.io/jira-to-agile-cards/ "Jira to Agile Cards Page"
+[5]: https://s3.amazonaws.com/mfhosting/sprint-points.png "A Burndown alert"
