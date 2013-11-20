@@ -7,8 +7,18 @@ A fast solution to print Agile Cards with the OnDemand version of Atlassian's JI
 
 Compile the JS script with Google's [Closure Compiler][3]:
 
-    ./compile.sh
-    
+For the Post-It bookmarklet:
+
+    rake compile-postit
+
+For the Burndown bookmarklet:
+
+    rake compile-burndown
+
+For all bookmarklets:
+
+    rake compile-all
+
 Then embed the compiled code in a script like this:
 
     <a href='javascript:(function(){replace_with_compiled_script})();'>My bookmarklet</a>
