@@ -4,13 +4,12 @@ doneStoryPoints = 0;
 issues = document.getElementsByClassName('issuerow');
 for (i = 0; i < issues.length; i++) {  
     // Find story points & status
-
     var storyPoints = -1;
     var status = -1;
     for (j = 0; j < issues[i].childNodes.length; j++) {
-        if (issues[i].childNodes[j].className == "nav customfield_10105") {
+        if (issues[i].childNodes[j].className == "customfield_10105") {
             storyPoints = parseInt(issues[i].childNodes[j].innerText);
-        } else if (issues[i].childNodes[j].className == "nav status") {
+        } else if (issues[i].childNodes[j].className == "status") {
             status = issues[i].childNodes[j].innerText;
         }
     }
