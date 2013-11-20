@@ -18,9 +18,9 @@ for (i = 0; i < issues.length; i++) {
   var issuekey = "key";
   var summary = "summary";
   for (j = 0; j < issues[i].childNodes.length; j++) {
-    if (issues[i].childNodes[j].className == "nav issuekey") {
+    if (issues[i].childNodes[j].className == "issuekey") {
       issuekey = issues[i].childNodes[j].innerText;
-    } else if (issues[i].childNodes[j].className == "nav summary") {
+    } else if (issues[i].childNodes[j].className == "summary") {
       summary = issues[i].childNodes[j].innerText;
     }
   }
