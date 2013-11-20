@@ -183,6 +183,11 @@ footer {
   bottom:50px;
 }
 
+.bookmarklet {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
