@@ -42,7 +42,7 @@ To find out more about this project, please read [this post][2].
 
 
 [1]: http://bootstragram.com/blog/assets/img/scrum_board.png "A ScrumBoard made with this project"
-[2]: http://bootstragram.com/making-scrum-cards-from-jira-with-jquery-and-css/ "Making scrum cards from Jira with jQuery and CSS on Bootstragram.com"
+[2]: http://bootstragram.com/blog/making-scrum-cards-from-jira-with-jquery-and-css/ "Making scrum cards from Jira with jQuery and CSS on Bootstragram.com"
 [3]: https://developers.google.com/closure/compiler/ "Google Closure Compiler"
 [4]: http://dirtyhenry.github.io/jira-to-agile-cards/ "Jira to Agile Cards Page"
 [5]: https://s3.amazonaws.com/mfhosting/sprint-points.png "A Burndown alert"
